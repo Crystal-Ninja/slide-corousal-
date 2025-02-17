@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image corousal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="corousal">
+       <button class="prev" onclick="changeslide(-1)">&#10094;</button>
+
+        <div class="corousal-container">
+            <img src="image1.jpg" alt="image not found" class="slide active">
+            <img src="image2.jpg" alt="image not found" class="slide">
+            <img src="image3.jpeg" alt="image not found" class="slide">
+            <img src="image4.jpeg" alt="image not found" class="slide">
+            <img src="image5.jpg" alt="image not found" class="slide">
+        </div>  
+
+        <button class="next" onclick="changeslide(+1)">&#10095;</button> 
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
